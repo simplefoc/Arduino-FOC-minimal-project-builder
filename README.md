@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Arduino-FOC-minial-porject-builder
-=======
 # Arduino *SimpleFOClibrary* v2.0.1 - minimal project builder 
 
 ![MinimalBuild](https://github.com/askuric/Arduino-FOC/workflows/MinimalBuild/badge.svg?branch=minimal)
