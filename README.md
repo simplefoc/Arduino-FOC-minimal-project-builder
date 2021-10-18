@@ -1,6 +1,6 @@
 # Arduino *SimpleFOClibrary* v2.2 - minimal project builder 
 
-> This repo is still in its early stage, it will be made up to date soon :D
+> This repo is still in its early stage, it will be made up to date soon 😄
 
 ![MinimalBuild](https://github.com/askuric/Arduino-FOC/workflows/MinimalBuild/badge.svg?branch=minimal)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
