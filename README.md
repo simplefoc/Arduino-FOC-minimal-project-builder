@@ -1,4 +1,4 @@
-# Arduino *SimpleFOClibrary* v2.0.1 - minimal project builder 
+# Arduino *SimpleFOClibrary* v2.2 - minimal project builder 
 
 ![MinimalBuild](https://github.com/askuric/Arduino-FOC/workflows/MinimalBuild/badge.svg?branch=minimal)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -9,7 +9,7 @@ This is the branch of the [*SimpleFOClibrary*](https://github.com/askuric/Arduin
 ### Repository structure
 Library source code structure
 ```shell
-├─── library_source
+├─── Arduino-FOC/src
 | |
 | ├─ BLDCMotor.cpp/h           # BLDC motor handling class  
 | ├─ StepperMotor.cpp/h        # Stepper motor handling class 
@@ -279,4 +279,3 @@ Branch  | Description | Status
 [master](https://github.com/simplefoc/Arduino-FOC) | Stable and tested library version | ![Library Compile](https://github.com/simplefoc/Arduino-FOC/workflows/Library%20Compile/badge.svg)
 [dev](https://github.com/simplefoc/Arduino-FOC/tree/dev) | Development library version | ![Library Dev Compile](https://github.com/simplefoc/Arduino-FOC/workflows/Library%20Dev%20Compile/badge.svg?branch=dev)
 [minimal](https://github.com/simplefoc/Arduino-FOC/tree/minimal) | Minimal Arduino example with integrated library | ![MinimalBuild](https://github.com/simplefoc/Arduino-FOC/workflows/MinimalBuild/badge.svg?branch=minimal)
->>>>>>> origin/master
