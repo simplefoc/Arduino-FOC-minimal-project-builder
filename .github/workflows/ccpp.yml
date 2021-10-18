@@ -1,0 +1,17 @@
+
+name: MinimalBuild
+on: 
+  push:
+    branches: [minimal]
+jobs:
+  build:
+    name: Test compiling examples for UNO
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+    - name: Compile all examples
+      uses: ArminJo/arduino-test-compile@v1.0.0
+      with:
+        libraries:  PciManager
+        examples-exclude: esp32_bldc_magnetic_spi, esp32_stepper_openloop, stm32_bldc_encoder, stm32_bldc_hall
